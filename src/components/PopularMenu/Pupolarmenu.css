@@ -1,0 +1,17 @@
+.popular-menu-container {
+  background: var(--primary-color);
+  padding: 20px 3vw;
+  /* padding-top: 80px; */
+}
+
+.popular-menu-item {
+  background: var(--header-color);
+  border-color: rgb(64, 64, 59);
+  border-style: solid;
+  border-width: 2px;
+  transition: all 0.5s;
+}
+
+.popular-menu-item:hover {
+  box-shadow: rgba(251, 204, 108, 0.1) 0px 0px 16px;
+}

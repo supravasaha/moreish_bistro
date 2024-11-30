@@ -1,0 +1,19 @@
+.primary-btn {
+  background-color: var(--link-color);
+  text-transform: uppercase;
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 14px;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 2px;
+  padding: 15px 25px;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+
+.primary-btn:hover {
+  border-color: var(--link-color);
+  color: var(--link-color);
+  background-color: var(--primary-color);
+}
