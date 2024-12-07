@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-family: "Shadows Into Light", cursive;
+  
+  
+  --black-color: #000000;
+  --secondary-color: #808080;
+  --tomato-color: #FFDA43;
+  --light-tomato-color: #ff6347;
+  --button-text-color: #747474;
+  --description-color: #676767;
+  --footer-text-color: #FFDA43;
+  --footer-bg-color: #051016;
+  --divider-color: #e2e2e2;
+  --login-popup-bg-color: #00000090;
+  --input-field-border-color: #c9c9c9;
+  --checkout-color: #555555;
+  --cart-input-color: #eaeaea;
+  --place-order-input-color: #c5c5c5;
+  --navbar-profile-bg-color: #fff2ef;
+  --spinner-border-color: #bdbdbd;
+  --myorder-text-color: #454545;
+  --myorder-button-color: #ffe1e1;
+
+  --header-color: #1A1200;
+  --primary-color: #241401;
+  /* --section-bg-color: #1c1b19; */
+  --link-color: #CBB26A;
+  --white-color: #ffffff;
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

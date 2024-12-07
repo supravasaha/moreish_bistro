@@ -1,0 +1,43 @@
+.time-table-container {
+    background: var(--primary-color);
+    padding: 20px 3vw;
+    /* padding-top: 80px; */
+}
+
+.location-link {
+    color: var(--link-color);
+}
+
+.contact-icon {
+    background: var(--header-color);
+}
+
+.time-table {
+    padding: 0px 3%;
+}
+
+.time-table-date {
+    color: var(--tomato-color);
+}
+
+.time-table-close {
+    margin-top: 25px;
+}
+
+.table-border {
+    padding-right: 6%;
+    border-right: 5px dashed #000;
+}
+
+/* Media Query */
+@media (max-width: 750px) {
+    .time-table-container {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .table-border {
+        border-right: none;
+    }
+}

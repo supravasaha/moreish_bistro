@@ -1,0 +1,38 @@
+.employee-update-btn,
+.employee-delete-btn {
+  padding: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.employee-update-btn {
+  margin-bottom: 10px;
+}
+
+.update-employee {
+  margin-top: 20px;
+}
+
+div:where(.swal2-container) .swal2-html-container {
+  text-align: left !important;
+}
+
+.swal2-input {
+  margin-left: 0px !important;
+  margin-top: 0px !important;
+  margin-bottom: 10px !important;
+}
+
+.swal2-title {
+  text-align: left;
+  font-size: 18px;
+}
+table tr:hover {
+  background: var(--light-tomato-color)!important;
+}
+table thead:hover {
+  background: var(--light-tomato-color);
+}
+table td {
+  background-color: var(--primary-color) !important;
+}

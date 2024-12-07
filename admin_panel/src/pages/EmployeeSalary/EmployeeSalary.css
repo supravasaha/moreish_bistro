@@ -1,0 +1,11 @@
+div:where(.swal2-container) .swal2-html-container {
+  padding: 1em 1em .3em;
+}
+.salary-btn {
+  max-width: 120px;
+  border: 0;
+  padding: 10px;
+  background: var(--black-color);
+  color: var(--white-color);
+  cursor: pointer;
+}

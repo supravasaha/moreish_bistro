@@ -1,0 +1,45 @@
+.ngo-container {
+  min-height: 70vh;
+  width: max(23vw, 330px);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ngo-container h3{
+  text-align: left!important;
+  padding-bottom: 20px;
+  font-size: 1.875rem;
+}
+.ngo-container input,
+.ngo-container textarea {
+  width: 100%;
+  outline: none;
+  border: 1px solid #cbb26a47;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: var(--primary-color);
+  color: white;
+}
+.ngo-container input {
+  margin-bottom: 20px;
+}
+.ngo-container button {
+  width: 100%;
+  border: 0;
+  padding: 10px;
+  border-radius: 4px;
+  color: var(--primary-color);
+  background: var(--link-color);
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.ngo-login-text {
+  margin-top: 20px;
+}
+.ngo-login-text span {
+  color: var(--link-color);
+  font-weight: 500;
+  cursor: pointer;
+}

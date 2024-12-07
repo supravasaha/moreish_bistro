@@ -1,0 +1,8 @@
+input{
+  padding: 10px;
+  width: max(40%, 280px);
+  margin-bottom: 10px;
+}
+.add-employee{
+  margin-top: 20px;
+}
